@@ -1,0 +1,14 @@
+{
+  "name": "projet_cesi_leroux",
+  "version": "1.0.0",
+  "description": "Backend paris sportif",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "winv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
