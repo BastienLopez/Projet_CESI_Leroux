@@ -1,12 +1,12 @@
 "use strict";
-const express = require('express')
-const app = express();
-const port = 3000;
+/**
+ * Import 
+ */
+const Server = require('./src/class/Server');
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+/**
+ * Création d'un serveur virtuel
+ */
+const server = new Server(3000);
+server.start();
 
-app.listen(port, () => {
-    console.log(`Paris sportif app listening on port ${port}`);
-});
